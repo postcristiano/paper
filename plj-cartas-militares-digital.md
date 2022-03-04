@@ -33,7 +33,7 @@
 - GNU/Linux: (Debian/ Ubuntu)
     - Encontra-se nos repositórios e também na forma de pacote [Snap](https://snapcraft.io/inkscape) e [Appimage](https://inkscape.org/release/all/gnulinux/appimage/).
 ```bash
-sudo apt update && sudo apt install qgis inkscape
+sudo apt update && sudo apt install inkscape -y
 ```
 ##### **-> QGIS**
 - Windows:
@@ -52,7 +52,7 @@ sudo chmod a+r /etc/apt/trusted.gpg.d/qgis-archive.gpg
 sudo add-apt-repository "deb https://qgis.org/ubuntu $(lsb_release -c -s) main"
 ```
 ```bash
-sudo apt update && sudo apt install qgis qgis-plugin-grass &&
+sudo apt update && sudo apt install qgis qgis-plugin-grass -y
 ```
 > **Observação:** 
 > - *Sempre dê preferência para a versão estável.*

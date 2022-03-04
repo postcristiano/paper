@@ -3,7 +3,7 @@
 
 ### Considerações Iniciais:
 - O tutorial tem o objetivo de difundir conhecimentos sobre planejamento tático para operações militares;
-- A necessidade do tutorial foi identificada através da realização do Curso de Aperfeiçoamento de Oficiais na Escola de Aperfeiçoamento de Oficiais (EsAO) no ano de 2022. Existia uma demanda pela realização de estudos táticos de maneira digital e produção de produtos do estudo na forma de artefatos digitais (cartas militares de alta resolução, imagens vetorizadas, imagens rasterizadas, desenho de calcos de operações, etc);
+- A necessidade do tutorial foi identificada através da realização do Curso de Aperfeiçoamento de Oficiais na [Escola de Aperfeiçoamento de Oficiais](http://www.esao.eb.mil.br/) (EsAO) no ano de 2022. Existia uma demanda pela realização de estudos táticos de maneira digital e produção de produtos do estudo na forma de artefatos digitais (cartas militares de alta resolução, imagens vetorizadas, imagens rasterizadas, desenho de calcos de operações, etc);
 - Para execução do planejamento tático em carta digital, foram adotados os softwares **QGIS** e **Inkscape**, ambos softwares de código aberto e de credibilidade alta na comunidade;
 - Futuramente as idéias aqui contidas podem fomentar o desenvolvimento de uma solução integrada optimizada para atender os requisitos de uso do planejador tático militar.
 
@@ -25,7 +25,17 @@
 
 #### PASSO 1: Download e instalação dos softwares
 [<img src="./pics/pcmd/pcmd1.png" width="400"/>]() 
-##### QGIS
+##### **-> Inkscape**
+- Windows:
+    - Realize o [download](https://inkscape.org/release/1.1.2/windows/64-bit/) do binário e instale seguindo as instruções da interface gráfica. 
+- MacOS:
+    - Realize o [download](https://inkscape.org/gallery/item/31681/Inkscape-1.1.2.dmg) e arraste o instalador para a pasta de aplicativos.
+- GNU/Linux: (Debian/ Ubuntu)
+    - Encontra-se nos repositórios e também na forma de pacote [Snap](https://snapcraft.io/inkscape) e [Appimage](https://inkscape.org/release/all/gnulinux/appimage/).
+```bash
+sudo apt update && sudo apt install qgis inkscape
+```
+##### **-> QGIS**
 - Windows:
     - Realize o [download](https://qgis.org/downloads/QGIS-OSGeo4W-3.22.4-1.msi) do binário e instale seguindo as instruções da interface gráfica. 
 - MacOS:
@@ -41,17 +51,16 @@ sudo chmod a+r /etc/apt/trusted.gpg.d/qgis-archive.gpg
 ```bash
 sudo add-apt-repository "deb https://qgis.org/ubuntu $(lsb_release -c -s) main"
 ```
-```
+```bash
 sudo apt update && sudo apt install qgis qgis-plugin-grass &&
 ```
-> **Observação:** *No ubuntu 20.04 e posteriores, uma versão estável do QGIS encontra-se no repositório. Não é trata-se da ultima versão do software, porém é funcional e não possui bugs. Para obte-la, basta realizar a instalação a partir do gerenciador de pacotes nativo. Para*
+> **Observação:** 
+> - *Sempre dê preferência para a versão estável.*
+> - *O QGIS encontra-se disponível para os Macbooks M1, arquitetura arm proprietária da Apple, apenas através da camada de compatibilidade e virtualização Rosetta 2. Sendo necessário instalar a mesma se for o caso.*
+> - *No ubuntu 20.04 e posteriores, uma versão estável do QGIS encontra-se no repositório. Não é trata-se da ultima versão do software, porém é funcional e não possui bugs. Para obte-la, basta realizar a instalação a partir do gerenciador de pacotes nativo. Para*
 
-O QGIS encontra-se disponível para Macbooks M1, apenas através da camada de compatibilidade e virtualização Rosetta 2.
 
-Dê preferência para a versão estável.
-
-https://qgis.org/downloads/QGIS-OSGeo4W-3.22.4-1.msi
-
+---
 
 #### PASSO 2: Configuração para obtenção de camadas online
 

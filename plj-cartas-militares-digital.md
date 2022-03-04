@@ -7,17 +7,9 @@
 - Para execução do planejamento tático em carta digital, foram adotados os softwares **QGIS** e **Inkscape**, ambos softwares de código aberto e de credibilidade alta na comunidade;
 - Futuramente as idéias aqui contidas podem fomentar o desenvolvimento de uma solução integrada optimizada para atender os requisitos de uso do planejador tático militar.
 
-> **QGIS**: É um sistema de aplicação para informações geográficas que suporta visualização, edição e análise geospacial de dados.
+> **QGIS**: É um sistema de aplicação para informações geográficas que suporta visualização, edição e análise geospacial de dados.  
+  
 > **Inkscape**: Editor de imagens vetorizadas.
-
- facilita substanciamente a produção de artefatos de planejamento tático
-
-
-- QGIS 
-- QGIS is a free and open-source cross-platform desktop geographic information system application that supports viewing, editing, and analysis of geospatial data.
-- O tutorial tem o objetivo de popularizar o uso do EBmail no ambiente coorporativo dentro da instituição, incentivando a tramitação de dados ligados ao serviço em servidores internos da organização (CITEX);
-- O objetivo do tutorial também é oferecer uma forma acesso ao EBmail fácil, simples e semelhante as grandes soluções proprietárias;
-- Todos os software envolvidos no tutorial .
 
 ---
 

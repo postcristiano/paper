@@ -69,7 +69,7 @@ Segurança | SSL/TSL
 Porta | 993
 Usuário | meulogin@eb.mil.br
 Autenticação | Senha Normal
-Senha s| enha_do_email_do_usuario
+Senha | senha_do_email_do_usuario
 
 **Configurações do Servidor de Saída**  
 Servidor SMTP | ebmail.eb.mil.br

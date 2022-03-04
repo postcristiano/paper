@@ -25,7 +25,7 @@
 
 #### PASSO 1: Download e instalação dos softwares
 [<img src="./pics/pcmd/pcmd1.png" width="400"/>]() 
-##### **-> Inkscape**
+##### **> Inkscape**
 - Windows:
     - Realize o [download](https://inkscape.org/release/1.1.2/windows/64-bit/) do binário e instale seguindo as instruções da interface gráfica. 
 - MacOS:
@@ -35,7 +35,7 @@
 ```bash
 sudo apt update && sudo apt install inkscape -y
 ```
-##### **-> QGIS**
+##### **> QGIS**
 - Windows:
     - Realize o [download](https://qgis.org/downloads/QGIS-OSGeo4W-3.22.4-1.msi) do binário e instale seguindo as instruções da interface gráfica. 
 - MacOS:

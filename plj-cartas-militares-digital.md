@@ -48,13 +48,35 @@ sudo apt update && sudo apt install qgis qgis-plugin-grass -y
 ```
 > **Observação:** 
 > - *Sempre dê preferência para a versão estável.*
-> - *O QGIS encontra-se disponível para os Macbooks M1, arquitetura arm proprietária da Apple, apenas através da camada de compatibilidade e virtualização Rosetta 2. Sendo necessário instalar a mesma se for o caso.*
+> - *O QGIS encontra-se disponível para os Macbooks M1, arquitetura arm proprietária da Apple, apenas através da camada de compatibilidade e virtualização [Rosetta 2](https://support.apple.com/pt-br/HT211861). Sendo necessário instalar a mesma se for o caso.*
 > - *No ubuntu 20.04 e posteriores, uma versão estável do QGIS encontra-se no repositório. Não é trata-se da ultima versão do software, porém é funcional e não possui bugs. Para obte-la, basta realizar a instalação a partir do gerenciador de pacotes nativo. Para*
 
 
 ---
 
-#### PASSO 2: Configuração para obtenção de camadas online
+#### PASSO 2: Configuração para obtenção de cartas online
+- O BDGEx disponibiliza dezenas de camadas de cartas topográficas através de WMS/WMTS; 
+- Através de uma conexão é possível consumir diversas cartas GIS topográficas, matriciais e vetorizadas em diferentes escalas.
+- Para configurar o QGIS no seu computador e manipular suas cartas, vá no menu superior `camadas`, `adicionar camada`, `adicionar WMS/WMTS layer`, no menu lateral à esquerda selecione `WMS/WMTS`, clique em `novo` e insira os dados:
+
+**Name:** | `EB BDGEx`
+--------- | -----------
+**URL:** | `http://bdgex.eb.mil.br/mapcache`
+
+[<img src="./pics/pcmd/pcmd2.gif" width="1024"/>]() 
+
+
+
+- 
+> **Observação:** 
+> - *É possível utilizar suas credenciais do Geoportal do Exército para obter as cartas, porém não é impostivo.*
+
+
+
+colocar os calungas no inks
+
+colocar no qgis
+
 
 [<img src="./pics/qb/teste.gif" width="250"/>]() | [<img src="./pics/cesa/cesa4.png" width="250"/>]() | [<img src="./pics/cesa/cesa5.png" width="250"/>]()
 

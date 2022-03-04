@@ -25,22 +25,22 @@
 
 #### PASSO 1: Download e instalação dos softwares
 [<img src="./pics/pcmd/pcmd1.png" width="400"/>]() 
-##### **> Inkscape**
+##### **Inkscape - Instalação:**
 - Windows:
     - Realize o [download](https://inkscape.org/release/1.1.2/windows/64-bit/) do binário e instale seguindo as instruções da interface gráfica. 
 - MacOS:
     - Realize o [download](https://inkscape.org/gallery/item/31681/Inkscape-1.1.2.dmg) e arraste o instalador para a pasta de aplicativos.
-- GNU/Linux: (Debian/ Ubuntu)
+- GNU/Linux (Debian/ Ubuntu):
     - Encontra-se nos repositórios e também na forma de pacote [Snap](https://snapcraft.io/inkscape) e [Appimage](https://inkscape.org/release/all/gnulinux/appimage/).
 ```bash
 sudo apt update && sudo apt install inkscape -y
 ```
-##### **> QGIS**
+##### **QGIS - Instalação:**
 - Windows:
     - Realize o [download](https://qgis.org/downloads/QGIS-OSGeo4W-3.22.4-1.msi) do binário e instale seguindo as instruções da interface gráfica. 
 - MacOS:
     - Realize o [download](https://qgis.org/downloads/macos/qgis-macos-ltr.dmg) e arraste o instalador para a pasta de aplicativos.
-- GNU/Linux: (Debian/ Ubuntu)
+- GNU/Linux (Debian/ Ubuntu):
 ```bash
 sudo apt install gnupg software-properties-common
 ```

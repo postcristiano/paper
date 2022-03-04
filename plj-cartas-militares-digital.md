@@ -23,9 +23,11 @@
 
 ### **Instruções**
 
-#### PASSO 1: Download e instalação
+#### PASSO 1: Download e instalação dos softwares
 - Windows:
+    - Realize o [download](https://qgis.org/downloads/QGIS-OSGeo4W-3.22.4-1.msi) do binário e instale seguindo as instruções da interface gráfica.
 - MacOS:
+    - Realize
 - GNU/Linux: (Debian/ Ubuntu)
 ```bash
 sudo apt install gnupg software-properties-common
@@ -60,6 +62,9 @@ sudo apt update && sudo apt install qgis qgis-plugin-grass &&
 #### PASSO 7
 
 ### Referências
+manual calunga
+
+
 https://www.qgis.org/en/site/  
 https://github.com/qgis/QGIS#documentation  
 

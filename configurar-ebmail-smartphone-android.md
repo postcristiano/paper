@@ -63,7 +63,7 @@
 - Parâmetro de configuração do EBmail https://ebmail.eb.mil.br para qualquer cliente de email:  
   
 **Configurações do Servidor de Entrada**  
-Servidor | IMAP ebmail.eb.mil.br
+Servidor IMAP | ebmail.eb.mil.br
 ---------------- | -------------------------
 Segurança | SSL/TSL
 Porta | 993

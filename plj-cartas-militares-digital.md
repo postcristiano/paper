@@ -63,7 +63,7 @@ sudo apt update && sudo apt install qgis qgis-plugin-grass -y
 --------- | -----------
 **URL:** | `http://bdgex.eb.mil.br/mapcache`
 
-[<img src="./pics/pcmd/pcmd2.gif" width="1024"/>]() 
+[<img src="./pics/pcmd/pcmd2b.gif" width="1024"/>]() 
 
 
 

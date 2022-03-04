@@ -24,10 +24,12 @@
 ### **Instruções**
 
 #### PASSO 1: Download e instalação dos softwares
+[<img src="./pics/pcmd/pcmd1.png" width="400"/>]() 
+##### QGIS
 - Windows:
-    - Realize o [download](https://qgis.org/downloads/QGIS-OSGeo4W-3.22.4-1.msi) do binário e instale seguindo as instruções da interface gráfica.
+    - Realize o [download](https://qgis.org/downloads/QGIS-OSGeo4W-3.22.4-1.msi) do binário e instale seguindo as instruções da interface gráfica. 
 - MacOS:
-    - Realize
+    - Realize o [download](https://qgis.org/downloads/macos/qgis-macos-ltr.dmg) e arraste o instalador para a pasta de aplicativos.
 - GNU/Linux: (Debian/ Ubuntu)
 ```bash
 sudo apt install gnupg software-properties-common
@@ -44,7 +46,11 @@ sudo apt update && sudo apt install qgis qgis-plugin-grass &&
 ```
 > **Observação:** *No ubuntu 20.04 e posteriores, uma versão estável do QGIS encontra-se no repositório. Não é trata-se da ultima versão do software, porém é funcional e não possui bugs. Para obte-la, basta realizar a instalação a partir do gerenciador de pacotes nativo. Para*
 
+O QGIS encontra-se disponível para Macbooks M1, apenas através da camada de compatibilidade e virtualização Rosetta 2.
 
+Dê preferência para a versão estável.
+
+https://qgis.org/downloads/QGIS-OSGeo4W-3.22.4-1.msi
 
 
 #### PASSO 2: Configuração para obtenção de camadas online

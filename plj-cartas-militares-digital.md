@@ -46,7 +46,7 @@ sudo add-apt-repository "deb https://qgis.org/ubuntu $(lsb_release -c -s) main"
 ```bash
 sudo apt update && sudo apt install qgis qgis-plugin-grass -y
 ```
-> **Observação:** 
+> **Observações:** 
 > - *Sempre dê preferência para a versão estável.*
 > - *O QGIS encontra-se disponível para os Macbooks M1, arquitetura arm proprietária da Apple, apenas através da camada de compatibilidade e virtualização [Rosetta 2](https://support.apple.com/pt-br/HT211861). Sendo necessário instalar a mesma se for o caso.*
 > - *No ubuntu 20.04 e posteriores, uma versão estável do QGIS encontra-se no repositório. Não é trata-se da ultima versão do software, porém é funcional e não possui bugs. Para obte-la, basta realizar a instalação a partir do gerenciador de pacotes nativo. Para*
@@ -65,11 +65,18 @@ sudo apt update && sudo apt install qgis qgis-plugin-grass -y
 
 [<img src="./pics/pcmd/pcmd2b.gif" width="1024"/>]() 
 
+---
 
+#### PASSO 3: Salvar uma carta em formato de imagem
+- Caso necessite uma imagem de sua carta para editar e/ou inserir em uma apresentação de slides
 
-- 
+Tenha em mente que a qualidade da carta está diretamente à quan e isto vai impactar diretamente no tamanho do arquivo que será gerado na exportação.
+- Você também pode carregar a imagem que salvou no QGIS, para posteriormente trabalhar apenas nela, isso pode ser útil em caso de não possuir uma conexão com a Internet e o cache do seu QGIS estiver vazio, como ocorre em novas instalações do software.
+
+[<img src="./pics/pcmd/pcmd3.gif" width="1024"/>]() 
+
 > **Observação:** 
-> - *É possível utilizar suas credenciais do Geoportal do Exército para obter as cartas, porém não é impostivo.*
+> - *É possível utilizar suas credenciais do Geoportal do Exército para obter as cartas, porém isso não é impostivo.*
 
 
 
@@ -80,15 +87,29 @@ colocar no qgis
 
 [<img src="./pics/qb/teste.gif" width="250"/>]() | [<img src="./pics/cesa/cesa4.png" width="250"/>]() | [<img src="./pics/cesa/cesa5.png" width="250"/>]()
 
-#### PASSO 3
 
-#### PASSO 4
+#### PASSO 4: Desenhar um Calco como camada
+
+Calungas
+
 
 #### PASSO 5
 
 #### PASSO 6
 
 #### PASSO 7
+
+
+
+
+
+Todo trabalho em andamento pode ser salvo a qualquer momento, será gerado um arquivo xxxx, que pode ser aberto posteriormente
+
+### Colagem do Calco
+Ente é um passo adicional,
+Inkscape
+camadas
+
 
 ### Referências
 manual calunga

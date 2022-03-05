@@ -13,7 +13,7 @@
 
 ---
 
-### **Instruções**
+### **INSTRUÇÕES**
 
 #### PASSO 1: Download e instalação dos softwares
 [<img src="./pics/pcmd/pcmd1.png" width="400"/>]() 
@@ -51,7 +51,6 @@ sudo apt update && sudo apt install qgis qgis-plugin-grass -y
 > - *O QGIS encontra-se disponível para os Macbooks M1, arquitetura arm proprietária da Apple, apenas através da camada de compatibilidade e virtualização [Rosetta 2](https://support.apple.com/pt-br/HT211861). Sendo necessário instalar a mesma se for o caso.*
 > - *No ubuntu 20.04 e posteriores, uma versão estável do QGIS encontra-se no repositório. Não é trata-se da ultima versão do software, porém é funcional e não possui bugs. Para obte-la, basta realizar a instalação a partir do gerenciador de pacotes nativo. Para*
 
-
 ---
 
 #### PASSO 2: Configuração para obtenção de cartas online
@@ -68,58 +67,74 @@ sudo apt update && sudo apt install qgis qgis-plugin-grass -y
 ---
 
 #### PASSO 3: Salvar uma carta em formato de imagem
-- Caso necessite uma imagem de sua carta para editar e/ou inserir em uma apresentação de slides
-
-Tenha em mente que a qualidade da carta está diretamente à quan e isto vai impactar diretamente no tamanho do arquivo que será gerado na exportação.
-- Você também pode carregar a imagem que salvou no QGIS, para posteriormente trabalhar apenas nela, isso pode ser útil em caso de não possuir uma conexão com a Internet e o cache do seu QGIS estiver vazio, como ocorre em novas instalações do software.
+- Caso necessite uma imagem de sua carta para editar e/ou inserir em uma apresentação de slides, vá em `Projeto`, `Importar/Exportar`, `Exportar mapa para imagem`, atente para quantidade de dpi, a qualidade da carta e o tamanho do arquivo a ser criado estão diretamente relacionados a ela;
+- Posteriormente, você também pode carregar a imagem que salvou no QGIS, para trabalhar apenas com ela. Isso pode ser especialmente útil em caso de não possuir uma conexão com a Internet e/ou cache do seu QGIS estiver vazio, como ocorre em novas instalações do software.
 
 [<img src="./pics/pcmd/pcmd3.gif" width="1024"/>]() 
 
-> **Observação:** 
-> - *É possível utilizar suas credenciais do Geoportal do Exército para obter as cartas, porém isso não é impostivo.*
+> **Observação:** *É possível utilizar suas credenciais do Geoportal do Exército para obter as cartas, porém isso não é impostivo.*
 
+---
 
+#### PASSO 4: Desenhar um Calco temático como camada no QGIS
+- Caso você precise representar um calco temático, por exemplo movimento e manobra, e colocar sobre a carta topográfica, deverá
+
+- Possuir um repositório de Calungas pode facilitar bota no video
 
 colocar os calungas no inks
 
 colocar no qgis
 
-
-[<img src="./pics/qb/teste.gif" width="250"/>]() | [<img src="./pics/cesa/cesa4.png" width="250"/>]() | [<img src="./pics/cesa/cesa5.png" width="250"/>]()
-
-
-#### PASSO 4: Desenhar um Calco como camada
-
 Calungas
 
+---
 
-#### PASSO 5
+#### PASSO 5: Desenhar um Calco como camada do Inkscape
+- De posse de uma carta no formato de imagem podemos representar o planejamento de uma operação tática através de calcos temáticos;
+- Abra o Inkscape, adicione a imagem da carta ao documento, crie outras camadas e faça as suas representações de planejamento;
+- Com o recursos de camadas você pode desenhar calcos de movimento e manobra, sistema de comunicações de área, posição defensiva, dentre muitos outros;
+- Por fim, selecione as camadas de interesse para exportar em um novo arquivo de imagem; 
+- Você poderar criar uma nova imagem da carta apenas com as informações táde interesse.
 
-#### PASSO 6
+[<img src="./pics/pcmd/pcmd5.gif" width="1024"/>]() 
 
-#### PASSO 7
-
-
+---
 
 
+
+#### PASSO 6: Salvar planejamento tático em andamento
 
 Todo trabalho em andamento pode ser salvo a qualquer momento, será gerado um arquivo xxxx, que pode ser aberto posteriormente
 
-### Colagem do Calco
-Ente é um passo adicional,
-Inkscape
-camadas
+---
+
+### PASSO 7: Colagem do folhas de Calco (Adicional)
+- Esta atividade é uma sugestão para alguma situação de contigência. A idéia é não fazer essa tarefa, já que o objetivo principal é confeccionar todos os artefatos de planejamento da operação de maneira digital, seja por camadas vetorizadas no QGIS ou por imagens simples vetorizadas.
+- O procedimento pode ser realizado em qualquer editor de imagem vetorial, utilizamos o Inkscape por ser um software de livre de grande qualidade e de código aberto;
+- Inicialmente capture fotos de boa qualidade de todas as folhas de calco a serem coladas, aplicativos de scanner para smartphone podem auxiliar nesta tarefa;
+- Crie um número de camadas igual ao número de folhas de calcos, mova cada folha em ordem, para a respectiva camada;
+- Aplique transparência nas camadas;
+- Realize o alinhamento das "cruzetas" de latitude e longitude;
+- Remova a transparência e exporte o calco colado.
+- A partir de agora, se tiver interesse, com a imagem vetorizada você pode preparar ela para adicionar como uma nova camada do QGIS, sobre a carta do Teatro de Operações.
+
+[<img src="./pics/pcmd/pcmd7.gif" width="1024"/>]() 
+
+---
+
+### **CONCLUSÃO:** Possibilidades e capacidades
+- O QGIS possui inúmeros recursos interessantes, permite salvar os trabalhos em um repositório de rede local com versionamento. Esta funcão pode ser útil para determinadas organizações. Busque suporte com o chefe da Seção de Tecnologia da Informação para se orientar quanto a viabilidade de implementação;
+- Integrações com servidores de mapas locais customizados como o [OpenMapTiles do projeto OpenStreetMaps](https://openmaptiles.org/), também são possíveis e podem aumentar substancialmente a capacidade de planejamento tático com a governança dos dados.
+- Este tutorial é apenas uma introdução inicial, para aprofundar os conhecimentos, leia as documentações oficiais dos softwares.
+
+Futuramente serão adicionados mais exemplos de caso de uso
 
 
-### Referências
-manual calunga
 
-
-https://www.qgis.org/en/site/  
-https://github.com/qgis/QGIS#documentation  
-
-
-
+### **REFERÊNCIAS**
+- EB20-MF-10.102- Manual de Fundamentos Doutrina Militar Terrestre
+- [Documentação QGIS](https://docs.qgis.org/3.16/pt_BR/docs/user_manual/)
+- [Documentação Inkscape](https://inkscape.org/learn/tutorials/)
 
 ---
 

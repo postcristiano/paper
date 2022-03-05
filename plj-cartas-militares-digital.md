@@ -9,7 +9,7 @@
 
 > **QGIS**: É um sistema de aplicação para informações geográficas que suporta visualização, edição e análise geospacial de dados.  
   
-> **Inkscape**: Editor de imagens vetorizadas.
+> **Inkscape**: Editor de imagens vetorizadas.  
 
 ---
 
@@ -34,10 +34,12 @@ sudo apt update && sudo apt install inkscape -y
     - Realize o [download](https://qgis.org/downloads/macos/qgis-macos-ltr.dmg) e arraste o instalador para a pasta de aplicativos.
 - GNU/Linux (Debian/ Ubuntu):
 ```bash
-sudo apt install gnupg software-properties-common
+sudo apt install gnupg software-properties-common -y
 ```
 ```bash
 wget -qO - https://qgis.org/downloads/qgis-2021.gpg.key | sudo gpg --no-default-keyring --keyring gnupg-ring:/etc/apt/trusted.gpg.d/qgis-archive.gpg --import
+```
+```bash
 sudo chmod a+r /etc/apt/trusted.gpg.d/qgis-archive.gpg
 ```
 ```bash
@@ -89,26 +91,24 @@ Calungas
 
 ---
 
-#### PASSO 5: Desenhar um Calco como camada do Inkscape
+#### PASSO 5: Salvar planejamento tático em andamento
+
+Todo trabalho em andamento pode ser salvo a qualquer momento, será gerado um arquivo xxxx, que pode ser aberto posteriormente
+
+---
+
+#### PASSO 6: Desenhar um Calco como camada do Inkscape
 - De posse de uma carta no formato de imagem podemos representar o planejamento de uma operação tática através de calcos temáticos;
 - Abra o Inkscape, adicione a imagem da carta ao documento, crie outras camadas e faça as suas representações de planejamento;
 - Com o recursos de camadas você pode desenhar calcos de movimento e manobra, sistema de comunicações de área, posição defensiva, dentre muitos outros;
 - Por fim, selecione as camadas de interesse para exportar em um novo arquivo de imagem; 
 - Você poderar criar uma nova imagem da carta apenas com as informações táde interesse.
 
-[<img src="./pics/pcmd/pcmd5.gif" width="1024"/>]() 
+[<img src="./pics/pcmd/pcmd6.gif" width="1024"/>]() 
 
 ---
 
-
-
-#### PASSO 6: Salvar planejamento tático em andamento
-
-Todo trabalho em andamento pode ser salvo a qualquer momento, será gerado um arquivo xxxx, que pode ser aberto posteriormente
-
----
-
-### PASSO 7: Colagem do folhas de Calco (Adicional)
+### PASSO 7: Colagem de folhas de Calco (Adicional)
 - Esta atividade é uma sugestão para alguma situação de contigência. A idéia é não fazer essa tarefa, já que o objetivo principal é confeccionar todos os artefatos de planejamento da operação de maneira digital, seja por camadas vetorizadas no QGIS ou por imagens simples vetorizadas.
 - O procedimento pode ser realizado em qualquer editor de imagem vetorial, utilizamos o Inkscape por ser um software de livre de grande qualidade e de código aberto;
 - Inicialmente capture fotos de boa qualidade de todas as folhas de calco a serem coladas, aplicativos de scanner para smartphone podem auxiliar nesta tarefa;
@@ -139,7 +139,7 @@ Futuramente serão adicionados mais exemplos de caso de uso
 ---
 
 Author: *Cristiano Monteiro*  
-2022 March 4 
+2022 March 4 - version 0.1
 
 
 

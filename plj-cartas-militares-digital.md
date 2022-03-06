@@ -69,7 +69,7 @@ sudo apt update && sudo apt install qgis qgis-plugin-grass -y
 ---
 
 #### PASSO 3: Salvar uma carta em formato de imagem
-- Caso necessite uma imagem de sua carta para editar e/ou inserir em uma apresentação de slides, vá em `Project`, `Import/Export`, `Exportar Map to Image`, atente para quantidade de DPI, a qualidade da carta e o tamanho do arquivo a ser criado estão diretamente relacionados a ela;
+- Caso necessite uma imagem de sua carta para editar e/ou inserir em uma apresentação de slides, vá em `Project`, `Import/Export`, `Export Map to Image`, atente para quantidade de DPI, a qualidade da carta e o tamanho do arquivo a ser criado estão diretamente relacionados a ela;
 - Posteriormente, você também pode carregar a imagem que salvou no QGIS, para trabalhar apenas com ela. Isso pode ser especialmente útil em caso de não possuir uma conexão com a Internet e/ou cache do seu QGIS estiver vazio, como ocorre em novas instalações do software.
 
 [<img src="./pics/pcmd/pcmd3.gif" width="1024"/>]() 

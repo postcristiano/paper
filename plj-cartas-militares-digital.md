@@ -122,7 +122,7 @@ North Arrow |  Orientar a carta
 ### Passo 6: Obter a carta topográfica com o planejamento tático
 - Lembrando que foi montado um exemplo de manobra apenas para ilustrar, não existindo compromisso com fundamentos táticos e nem com a Doutrina Militar Terrestre;
 - Vá dentro de Layout que você mountou sua manobra, clique em `Layout` e em `Export as a Image` ou `Export as a SVG`  ou  `Export as a PDF`;
-- A qualidade da resolução é determinada pela quantidade de DPI que é diretamente proporcional ao tamanho do arquivo exportado;
+- A qualidade da resolução é determinada pela quantidade de DPI que é diretamente proporcional ao tamanho do arquivo exportado.
 
 [<img src="./pics/pcmd/pcmd6.gif" width="1024"/>]() 
 
@@ -145,7 +145,7 @@ North Arrow |  Orientar a carta
 
 ---
 
-#### PASSO 9: Desenhar um Calco como camada do Inkscape
+#### PASSO 9: Desenhar um Calco como camada do Inkscape 
 - De posse de uma carta no formato de imagem podemos representar o planejamento de uma operação tática através de calcos temáticos;
 - Abra o Inkscape, adicione a imagem da carta ao documento, crie outras camadas e faça as suas representações de planejamento;
 - Com o recursos de camadas você pode desenhar calcos de movimento e manobra, sistema de comunicações de área, posição defensiva, dentre muitos outros;

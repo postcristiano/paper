@@ -7,10 +7,10 @@
 - Para execução do planejamento tático em carta digital, foram adotados os softwares **QGIS** e **Inkscape**, ambos softwares de código aberto e de credibilidade alta na comunidade;
 - Futuramente as idéias aqui contidas podem fomentar o desenvolvimento de uma solução integrada optimizada para atender os requisitos de uso do planejador tático militar.
 
-> **[QGIS](https://www.qgis.org/en/site/)**: É um software sistema de aplicação para informações geográficas que suporta visualização, edição e análise geospacial de dados.  
-  
 > **[Inkscape](https://inkscape.org/)**: Editor de imagens vetorizadas.  
 
+> **[QGIS](https://www.qgis.org/en/site/)**: É um software sistema de aplicação para informações geográficas que suporta visualização, edição e análise geospacial de dados.  
+  
 ---
 
 ### **INSTRUÇÕES**
@@ -176,7 +176,7 @@ North Arrow |  Orientar a carta
 - Aplique um pouco de transparência;
 - Copie a imagem do calco e arraste para o QGIS, faça a amarração do calco com a carta;
 - O calco será uma camada, e com ela você poderá dar continuidade no planejamento tático adicionando outros elementos;
-- Vale ressaltar que você deverá realizar a [conversão de coordenadas UTM para magnética](http://www.carto.eng.uerj.br/cgi/index.cgi?x=utm2geo.htm), para amarrar o calco corretamente em sua carta.
+- Vale ressaltar que você deverá realizar a [conversão de coordenadas UTM para geográficas](http://www.carto.eng.uerj.br/cgi/index.cgi?x=utm2geo.htm), para amarrar o calco corretamente em sua carta.
 
 [<img src="./pics/pcmd/pcmd11.gif" width="1024"/>]() 
 

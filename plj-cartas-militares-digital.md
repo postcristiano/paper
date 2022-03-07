@@ -78,7 +78,7 @@ sudo apt update && sudo apt install qgis qgis-plugin-grass -y
 
 ---
 
-### PASSO 4: Importar uma carta de interesse
+#### PASSO 4: Importar uma carta de interesse
 -Vá até o menu superior `Project`, `Layout Manager`, `Create Layout`, use modelo vazio, e atribua o nome que quiser;
 - No menu superior selecione `Add Item` e em seguida `Add Map`, arraste para definir o tamanho do mapa, e aguarde alguns segundos para o QGIS carregue ele;
 - A carta está orientada e rasterizada, com o movimento do cursor do mouse, no menu inferior você pode observar a todo instante as coordenadas geográficas;
@@ -119,7 +119,7 @@ North Arrow |  Orientar a carta
 
 ---
 
-### Passo 6: Obter a carta topográfica com o planejamento tático
+#### Passo 6: Obter a carta topográfica com o planejamento tático
 - Lembrando que foi montado um exemplo de manobra apenas para ilustrar, não existindo compromisso com fundamentos táticos e nem com a Doutrina Militar Terrestre;
 - Vá dentro de Layout que você mountou sua manobra, clique em `Layout` e em `Export as a Image` ou `Export as a SVG`  ou  `Export as a PDF`;
 - A qualidade da resolução é determinada pela quantidade de DPI que é diretamente proporcional ao tamanho do arquivo exportado.
@@ -128,7 +128,7 @@ North Arrow |  Orientar a carta
 
 ---
 
-### Passo 7: Obter o calco da manobra digital
+#### Passo 7: Obter o calco da manobra digital
 - Em Itens no menu à direita, desmarque a camada relativa a carta, o que resta é a sua manobra, você pode selecionar os itens que lhe interessam para produzir calcos temáticos (movimento e manobra, restrição de movimento, inteligência, sistema de comunicações de área, entre outros)
 - Igual ao passo anterior, vá dentro de Layout que você mountou sua manobra, clique em `Layout` e em `Export as a Image` ou `Export as a SVG`  ou  `Export as a PDF`;
 - Não se esqueça de marcar pelo menos duas cruzetas de amarraçao de coordenadas, senão o seu calco será inutil.
@@ -156,7 +156,7 @@ North Arrow |  Orientar a carta
 
 ---
 
-### PASSO 10: Colagem de folhas de Calco impressas (Adicional)
+#### PASSO 10: Colagem de folhas de Calco impressas (Adicional)
 - Esta atividade é uma sugestão para alguma situação de contigência. A idéia é não fazer essa tarefa, já que o objetivo principal é confeccionar todos os artefatos de planejamento da operação de maneira digital, seja por camadas vetorizadas no QGIS ou por imagens simples vetorizadas;
 - O procedimento pode ser realizado em qualquer editor de imagem vetorial, utilizamos o Inkscape por ser um software de livre de grande qualidade e de código aberto;
 - Inicialmente capture fotos de boa qualidade de todas as folhas de calco a serem coladas, aplicativos de scanner para smartphone podem auxiliar nesta tarefa;
@@ -170,7 +170,7 @@ North Arrow |  Orientar a carta
 
 ---
 
-### PASSO 11: Aplicação do calco na carta (Adicional)
+#### PASSO 11: Aplicação do calco na carta (Adicional)
 - Assim como o  passo anterior, esta atividade é uma sugestão para alguma situação de contigência. A idéia é não fazer esta tarefa, já que o objetivo principal é confeccionar todos os artefatos de planejamento da operação de maneira digital, seja por camadas vetorizadas no QGIS ou por imagens simples vetorizadas;
 - Aumente o contraste da imagem do calco colado de forma que as cores dos papéis que foram "scaneados" fiquem brancas;
 - Aplique um pouco de transparência;

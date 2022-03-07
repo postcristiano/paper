@@ -191,4 +191,4 @@ North Arrow |  Orientar a carta
 ---
 
 Author: *Cristiano Monteiro*  
-2022 March 6 - version 0.3
+2022 March 6 - version 0.4

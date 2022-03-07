@@ -74,7 +74,7 @@ sudo apt update && sudo apt install qgis qgis-plugin-grass -y
 
 [<img src="./pics/pcmd/pcmd3.gif" width="1024"/>]() 
 
-> **Observação:** *É possível utilizar suas credenciais do Geoportal do Exército para obter as cartas, porém isso não é impostivo.*
+> **Observação:** *É possível utilizar suas credenciais do Geoportal do Exército para obter as cartas, porém isso não é obrigatório.*
 
 ---
 

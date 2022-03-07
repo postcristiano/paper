@@ -79,7 +79,7 @@ sudo apt update && sudo apt install qgis qgis-plugin-grass -y
 ---
 
 #### PASSO 4: Importar uma carta de interesse
--Vá até o menu superior `Project`, `Layout Manager`, `Create Layout`, use modelo vazio, e atribua o nome que quiser;
+- Vá até o menu superior `Project`, `Layout Manager`, `Create Layout`, use modelo vazio, e atribua o nome que quiser;
 - No menu superior selecione `Add Item` e em seguida `Add Map`, arraste para definir o tamanho do mapa, e aguarde alguns segundos para o QGIS carregue ele;
 - A carta está orientada e rasterizada, com o movimento do cursor do mouse, no menu inferior você pode observar a todo instante as coordenadas geográficas;
 - A quantidade de DPI fornece maior resolução e possibilidade de zoom com maior aproximação, porém exige mais recursos computacionais;
@@ -110,7 +110,7 @@ North Arrow |  Orientar a carta
 [<img src="./pics/pcmd/pcmd5.gif" width="1024"/>]() 
 
 > **SUGESTÃO** 
-> - *Para ter os simbolos militares integrados ao seu QGIS, entre no diretório `../qgis/svg` da instalação do QGIS no seu computador, crie uma diretório, por exemplo `military` e coloque o seu inventário de simbolos militares;*
+> - *Para ter os simbolos militares integrados ao seu QGIS, entre no diretório `../qgis/svg` da instalação do QGIS no seu computador, crie um diretório, por exemplo `military` e coloque o seu inventário de simbolos militares;*
 > - *Você mesmo pode desenvolver o seu inventários de simbolos reutilizáveis com o editor de imagens vetorizadas Inkscape;*
 > - *A pasta é a mesma em todos sistemas operacionasi, apenas mudando a hierarquia superior do diretório de acordo com o local de instalação e a organização de diretórios do seu sistema operacional;*
 > - *Isso não é uma tarefa impositiva, você também pode simplesmente arrastar o simbolo vetorizado direto para a carta, posiciona-lo e ajustar o seu tamanho de acordo com a necessidade.*

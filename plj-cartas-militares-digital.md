@@ -16,7 +16,7 @@
 ### **INSTRUÇÕES**
 
 #### PASSO 1: Download e instalação dos softwares
-[<img src="./pics/pcmd/pcmd1.png" width="400"/>]() 
+[<img src="./pics/pcmd/pcmd1.png" width="400"/>](https://github.com/postcristiano/paper/blob/main/plj-cartas-militares-digital.md) 
 ##### **Inkscape - Instalação:**
 - Windows:
     - Realize o [download](https://inkscape.org/release/1.1.2/windows/64-bit/) do binário e instale seguindo as instruções da interface gráfica. 

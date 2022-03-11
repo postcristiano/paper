@@ -56,7 +56,7 @@ sudo apt update && sudo apt install qgis qgis-plugin-grass -y
 ---
 
 #### PASSO 2: Configuração para obtenção de cartas online
-- O BDGEx disponibiliza dezenas de camadas de cartas topográficas através de WMS/WMTS; 
+- O [BDGEx](https://bdgex.eb.mil.br/bdgexapp) disponibiliza dezenas de camadas de cartas topográficas através de WMS/WMTS; 
 - Através de uma conexão é possível consumir diversas cartas GIS topográficas, matriciais e vetorizadas em diferentes escalas.
 - Para configurar o QGIS no seu computador e manipular suas cartas, vá no menu superior `Layer`, `Add Layer`, `Add WMS/WMTS layer`, no menu lateral à esquerda selecione `WMS/WMTS`, clique em `New` e insira os dados:
 

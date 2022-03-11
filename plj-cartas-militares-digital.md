@@ -115,7 +115,7 @@ North Arrow |  Orientar a carta
 > - *A pasta é a mesma em todos sistemas operacionais, mudando apenas a hierarquia superior do diretório de acordo com o local de instalação e a organização de diretórios do seu sistema operacional;*
 > - *Isso não é uma tarefa impositiva, você também pode simplesmente arrastar o simbolo vetorizado direto para a carta, posiciona-lo e ajustar o seu tamanho de acordo com a necessidade.*
 
-[<img src="./pics/pcmd/pcmd-tip1.png" width="1024"/>]() 
+[<img src="./pics/pcmd/pcmd-tip1.png" width="1024"/>](https://github.com/postcristiano/simbolos-militares) 
 
 ---
 

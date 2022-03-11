@@ -74,7 +74,7 @@ sudo apt update && sudo apt install qgis qgis-plugin-grass -y
 
 [<img src="./pics/pcmd/pcmd3.gif" width="1024"/>]() 
 
-> **Observação:** *É possível utilizar suas credenciais do Geoportal do Exército para obter as cartas, porém isso não é obrigatório.*
+> **Observação:** *É possível utilizar suas credenciais do [Banco de Dados Geográficos do Exército](https://bdgex.eb.mil.br/bdgexapp) para obter as cartas, porém isso não é obrigatório.*
 
 ---
 
@@ -192,4 +192,4 @@ North Arrow |  Orientar a carta
 ---
 
 Author: *Cristiano Monteiro*  
-2022 March 6 - version 0.5
+2022 March 6 - version 0.6

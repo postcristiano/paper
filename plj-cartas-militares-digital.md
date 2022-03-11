@@ -91,7 +91,7 @@ sudo apt update && sudo apt install qgis qgis-plugin-grass -y
 
 #### PASSO 5: Desenhar um planejamento tático militar
 - Vamos adotar a tabela a seguir como referência para desenhar as representações da operação tática militar;
-- Simbolos e convenções militares deverão ser imagens vetorizados (`*.png` ou `*.svg`), você pode adicionar à carta arrastando de um diretório do seu computador;
+- [Simbolos e convenções militares](https://github.com/postcristiano/simbolos-militares) deverão ser imagens vetorizados (`*.png` ou `*.svg`), você pode adicionar à carta arrastando de um diretório do seu computador;
 - Na tabela abaixo está uma sugestão de emprego dos recursos do QGIS com equivalência para os simbolos e convenções militares;
 - Para inserir um simbolo específico a partir do QGIS, vá em `Add item`, `Add Picture`, no menu que se abrirá a direita, acesse `Item Properties` e selecione sua figura.
 
@@ -110,9 +110,9 @@ North Arrow |  Orientar a carta
 [<img src="./pics/pcmd/pcmd5.gif" width="1024"/>]() 
 
 > **SUGESTÃO** 
-> - *Para ter os simbolos militares integrados ao seu QGIS, entre no diretório `../qgis/svg` da instalação do QGIS no seu computador, crie um diretório, por exemplo `military` e coloque o seu inventário de simbolos militares;*
+> - *Para ter os simbolos militares integrados ao seu QGIS, entre no diretório `../qgis/svg` da instalação do QGIS no seu computador, crie um diretório, por exemplo `military` e coloque o seu [inventário de simbolos militares](https://github.com/postcristiano/simbolos-militares);*
 > - *Você mesmo pode desenvolver o seu inventários de simbolos reutilizáveis com o editor de imagens vetorizadas Inkscape;*
-> - *A pasta é a mesma em todos sistemas operacionasi, apenas mudando a hierarquia superior do diretório de acordo com o local de instalação e a organização de diretórios do seu sistema operacional;*
+> - *A pasta é a mesma em todos sistemas operacionais, mudando apenas a hierarquia superior do diretório de acordo com o local de instalação e a organização de diretórios do seu sistema operacional;*
 > - *Isso não é uma tarefa impositiva, você também pode simplesmente arrastar o simbolo vetorizado direto para a carta, posiciona-lo e ajustar o seu tamanho de acordo com a necessidade.*
 
 [<img src="./pics/pcmd/pcmd-tip1.png" width="1024"/>]() 
@@ -183,10 +183,11 @@ North Arrow |  Orientar a carta
 ---
 
 ### **REFERÊNCIAS**
-- [MD33-C-01 - Catálogo de Símbolos e Convenções Cartográficas das Forças](https://www.gov.br/defesa/pt-br/arquivos/File/legislacao/emcfa/publicacoes/md_33_c_01_catalogo_de_simbolos_e_convencoes_fa_1_d_2021.pdf)
-- [EB20-MF-10.102 - Manual de Fundamentos Doutrina Militar Terrestre](https://bdex.eb.mil.br/jspui/bitstream/123456789/4760/1/EB20-MF-10.102.pdf)
 - [Documentação QGIS](https://docs.qgis.org/3.16/pt_BR/docs/user_manual/)
 - [Documentação Inkscape](https://inkscape.org/learn/tutorials/)
+- [EB20-MF-10.102 - Manual de Fundamentos Doutrina Militar Terrestre](https://bdex.eb.mil.br/jspui/bitstream/123456789/4760/1/EB20-MF-10.102.pdf)
+- [MD33-C-01 - Catálogo de Símbolos e Convenções Cartográficas das Forças](https://www.gov.br/defesa/pt-br/arquivos/File/legislacao/emcfa/publicacoes/md_33_c_01_catalogo_de_simbolos_e_convencoes_fa_1_d_2021.pdf)
+- [inventário de simbolos militares](https://github.com/postcristiano/simbolos-militares)
 
 ---
 

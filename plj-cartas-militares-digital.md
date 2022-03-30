@@ -66,6 +66,8 @@ sudo apt update && sudo apt install qgis qgis-plugin-grass -y
 
 [<img src="./pics/pcmd/pcmd2b.gif" width="1024"/>]() 
 
+> No Banco de Cartas do BDGEx, a carta mais usual para planejamentos militares é a **ctm50**, que faz referência a Carta Topográfica Matricial de escala 1:50000.
+
 ---
 
 #### PASSO 3: Salvar uma carta em formato de imagem
@@ -192,4 +194,4 @@ North Arrow |  Orientar a carta
 ---
 
 Author: *Cristiano Monteiro*  
-2022 March 6 - version 0.6
+2022 March 6 - version 0.7
